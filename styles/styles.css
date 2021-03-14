@@ -28,12 +28,10 @@ body * {
 .button-secondary:hover {
   border: 1px solid #ffffff;
   background: none;
-  transition-duration: 0.7s;
-  border: 1px solid transparent;
-  padding-right: 25px;
-  -webkit-transform: scale(1.2);
-  -ms-transform: scale(1.2);
-  transform: scale(1.2);
+  padding: 19px 0;
+ 
+  
+  
 }
 .button1 {
   position: relative;
@@ -42,9 +40,7 @@ body * {
 .button-small {
   width: 161px;
   padding: 13px 0;
-  transition: 0.7s ease-out;
-  transition-property: background, border-color;
-  border: 1px solid transparent;
+ border: 1px solid transparent;
 }
 .button-small:hover {
   background: none;
@@ -122,14 +118,7 @@ body * {
   text-decoration-line: underline;
   color: #e3b873;
 }
-.link:hover {
-  border-radius: 70%;
-  border: 1px solid transparent;
-  transition-duration: 0.7s;
-  -webkit-transform: scale(1.2);
-  -ms-transform: scale(1.2);
-  transform: scale(1.2);
-}
+
 
 .subtitle {
   font-family: Nunito Sans;
@@ -145,11 +134,8 @@ body * {
 }
 
 li a:hover {
-  background-color: none;
   color: white;
-  border: 1px solid transparent;
-  transition-duration: 0.7s;
-  border-radius: 45%;
+ 
 }
 
 .projects {
