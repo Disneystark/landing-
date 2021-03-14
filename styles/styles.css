@@ -306,6 +306,7 @@ li a:hover {
   filter: drop-shadow(0px 20px 50px rgba(0, 0, 0, 0.15));
 }
 .online-control-icon {
+  margin-top: 12px;
   text-align: center;
   vertical-align: 50%;
 }
