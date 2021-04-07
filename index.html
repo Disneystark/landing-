@@ -10,11 +10,12 @@
   <link href="./styles/styles.css" rel="stylesheet" type="text/css" />
   <title>Document</title>
 </head>
+
 <body>
   <header class="header">
     <div class="container header-content">
       <div class="logo">IC "Repair Design Project"</div>
-      <nav>
+      <nav class="header-navigation-wrapper">
         <ul class="header-navigation">
           <li class="header-navigation_item"><a href="#HOME">HOME</a></li>
           <li class="header-navigation_item">
@@ -32,122 +33,137 @@
           </li>
         </ul>
       </nav>
-      <a href="tel:+7(928)768-32-39" class="link">+7(928)768-32-39</a>
-      <button class="button button-small button1">Request a call</button>
+      <div class="header-link">
+        <a href="tel:+7(928)768-32-39" class="link">+7(928)768-32-39</a>
+      </div>
+      <button class="button button-small button1 header-button">Request a call</button>
     </div>
   </header>
-
   <main>
     <section class="hero">
       <div class="overlay"></div>
       <div class="container hero-container">
         <div class="title">
-          Turnkey Repair in the <br>city of <span class="dom">Rostov-on-Don</span>
+          Turnkey Repair in the city of <span class="dom">Rostov-on-Don</span>
         </div>
         <h2 class="subtitle">
-          Get ready-made turnkey repairs on time<br />
-          with work time saving up to 45 days and 20% from<br />
+          Get ready-made turnkey repairs on time
+          with work time saving up to 45 days and 20% from
           cost of materials due to the organization of work
         </h2>
         <div class="buttons-wrapper">
           <button class="button button-secondary">CALCULATE THE COST</button>
-          <button class="button button-secondary">SUBMIT YOUR APPLICATION</button>
+          <button class="button button-secondary button-show">SUBMIT YOUR APPLICATION</button>
         </div>
       </div>
     </section>
+
     <section class="projects">
       <div class="container">
         <div class="container_part2">
           <ul class="navigation_part2">
-            <li class="navigation_items2 o-grid">Rostov-on-Don, Admiral</li>
-            <li class="navigation_items2">Sochi Thieves</li>
-            <li class="navigation_items2">Rostov-on-Don Patriotic</li>
+            <li class="active"><a href="#">Rostov-on-Don, Admiral</a></li>
+            <li><a href="#">Sochi Thieves</a></li>
+            <li><a href="#">Rostov-on-Don Patriotic </a> </li>
           </ul>
         </div>
         <div class="slider_wrapper">
-          <div class="btn__text">
-            <div class="title_p2">COMPLETED <br>PROJECTS</div>
-            <p class="btn__text1">
-              Only a small part of the work performed by our company is presented
-              <br>on the site. For 14 years on in the construction
-              <br>market we have made happy more than 1000 families
-            </p>
-          </div>
-          <div class="btn_text2">
-            <div class="subblock">
-              <div class="title_h1">CITY:</div>
-              <span class="o-layout">Rostov-on-Don LCD admiral</span>
+          <div class="project_info">
+            <div class="btn__text">
+              <div class="title_p2">COMPLETED <br>PROJECTS</div>
+              <p class="btn__text1">
+                Only a small part of the work performed by our company is presented
+                <br>on the site. For 14 years on in the construction
+                <br>market we have made happy more than 1000 families
+              </p>
             </div>
-            <div class="subblock">
-              <div class="title_h1 ">REPAIR TIME:</div>
-              <span class="o-layout">3.5 months</span>
+            <div class="slider_image_wrapper">
+              <img class="slider_image" src="./images/hero2.jpg">
+              <div class="slider_image_button_left"></div>
+              <div class="slider_image_button_right"></div>
             </div>
-            <div class="subblock">
-              <div class="title_h2">APARTAMENT AREA:</div>
-              <span class="o-layout2">81 m2</span>
+            <div class="btn_text2">
+              <div class="subblock">
+                <div class="title_h1">CITY:</div>
+                <span class="o-layout">Rostov-on-Don LCD admiral</span>
+              </div>
+              <div class="subblock">
+                <div class="title_h1 ">REPAIR TIME:</div>
+                <span class="o-layout">3.5 months</span>
+              </div>
+              <div class="subblock">
+                <div class="title_h1">APARTAMENT AREA:</div>
+                <span class="o-layout">81 m2</span>
+              </div>
+              <div class="subblock">
+                <div class="title_h1 ">REPAIR COST:</div>
+                <span class="o-layout">Upon request</span>
+              </div>
             </div>
-            <div class="subblock">
-              <div class="title_h3 ">REPAIR COST:</div>
-              <span class="o-layout3">Upon request</span>
+
+
+
+            <div class="slider_interpreter">
+              <a class="slider_h1" href="#"><img src="./images/arrow-left.svg"></a>
+              <a class="slider_dot" href="#"><img src="./images/Rectangle 7.3.svg"></a>
+              <a class="slider_dot" href="#"><img src="./images/Rectangle 7.3.svg"></a>
+              <a class="slider_dot" href="#"><img src="./images/Rectangle 7.3.svg"></a>
+              <a class="slider_h2" href="#"><img src="./images/arrow-right.svg"></a>
             </div>
-          </div>
-          <div>
-            <img class="slider_image" src="./images/hero2.jpg">
-          </div>
-          <div class="slider_interpreter">
-            <a class="slider_h" href="#"><img src="./images/arrow-left.svg"></a>
-            <a class="slider_h" href="#"><img src="./images/Rectangle 7.3.svg"></a>
-            <a class="slider_h" href="#"><img src="./images/Rectangle 7.3.svg"></a>
-            <a class="slider_h" href="#"><img src="./images/Rectangle 7.3.svg"></a>
-            <a class="slider_h" href="#"><img src="./images/arrow-right.svg"></a>
           </div>
         </div>
       </div>
     </section>
+
+
     <section class="online-control">
       <div class="online-control-bg"></div>
       <div class="container">
-        <div class="online-control-title">
-          <div class="control">ONLINE CONTROL</div>
-          <div class="online-control-icon">
-            <span class="line"><img src="./images/line.svg"></span>
-            <span  class="logcam"><img src="./images/camera.svg"></span>
-            <span class="line"><img src="./images/line.svg"></span>
+        <div class="online-control-padding">
+          <div class="online-control-title">
+            <div class="control">ONLINE CONTROL</div>
+            <div class="online-control-icon">
+              <span class="logcam"><img src="./images/camera.svg"></span>
+            </div>
           </div>
-        </div>
-        <div class="video">
-          <div class="video-overlay"></div>
-          <div class="video-play"><svg width="21" height="26" viewBox="0 0 21 26" fill="none"
-              xmlns="http://www.w3.org/2000/svg">
-              <path d="M21 12.9999L7.65417e-07 25.1242L1.82536e-06 0.875522L21 12.9999Z" fill="white" />
-            </svg>
+          <div class="video">
+            <div class="video-overlay"></div>
+            <div class="video-play">
+            </div>
+            <img class="video_image" src=".//images/image 6.jpg">
           </div>
-          <img class="video_image" src=".//images/image 6.jpg">
-        </div>
-        <div class="line-image"></div>
-        <div class="online-control-desc">At each facility, a camera is installed that broadcasts the progress
-          of work on the clock. At any time, you can go to our website and monitor the progress of work in your
-          apartment.
-          You can watch the live broadcast from one of our facilities! Leave
-          a request below and you will receive a link to the broadcast.</div>
-        <form class="click-me">
-          <label class="label label_1" for="#">Name<br>
-            <input class="input" type="text" placeholder="What is your name:" required>
-          </label>
+          <div class="line-image"></div>
+          <div class="online-control-desc">At each facility, a camera is installed that broadcasts the progress
+            of work on the clock. At any time, you can go to our website and monitor the progress of work in your
+            apartment.
+            You can watch the live broadcast from one of our facilities! Leave
+            a request below and you will receive a link to the broadcast.</div>
+          <form class="click-me">
+            <div class="form-wrapper">
+              <label class="label " for="#">Name<br>
+                <input class="input" type="text" placeholder="What is your name:" required>
+              </label>
 
-          <label class="label label_2" for="#">Phone<br>
-            <input class="input" type="text" placeholder="Your phone number:" required>
-          </label>
-          <button class="button button_submit">Submit</button>
-        </form>
-        <form action="" class="form_chekbox">
-          <label class="chekbox"><input type="checkbox">
-            I agree to the processing of personal data
-          </label>
-        </form>
+              <label class="label " for="#">Phone<br>
+                <input class="input" type="text" placeholder="Your phone number:" required>
+              </label>
+              <button class="button button_submit">Submit</button>
+            </div>
+            <div action="" class="form_checkbox">
+              <label class="checkbox ">
+                <input type="checkbox">
+                <span class="checkbox-fake"></span>
+                I agree to the processing of personal data
+              </label>
+            </div>
+          </form>
+
+
+        </div>
       </div>
     </section>
-    <section class="TYPES-OF-REPAIR">
+
+    <section class="repair">
       <div class="container">
         <div class="repairtext">TYPES OF REPAIR</div>
         <div class="logo-molton">
@@ -241,11 +257,11 @@
 
               </div>
             </div>
- 
+
           </div>
 
           <div class="call-form">
-            <div action="" class="form_request">
+            <div class="form_request">
               <h5 class="call-text">Leave a request for free<br> departure of the measurer</h5>
               <div class="request" for="#">Name<br>
                 <input class="input_request" type="text" placeholder="What is your name:" required>
@@ -256,8 +272,12 @@
               <div class="request" for="#">Email<br>
                 <input class="input_request" type="text" placeholder="Your email" required>
               </div>
-              <div class="request chekbox_request"><input type="checkbox" class="checkbox_symbal">
-                I agree to the processing of personal data
+              <div class="request chekbox_request">
+                <label class="checkbox">
+                  <input type="checkbox" class="checkbox_symbal">
+                  <div class="checkbox-fake"></div>
+                  I agree to the processing of personal data
+                </label>
               </div>
               <button class="button button_request">Call the measurer</button>
             </div>
@@ -275,7 +295,7 @@
         </div>
       </div>
     </section>
-    <section class="our clients">
+    <section class="our-clients">
       <div class="text-our-clients">our clients</div>
       <div class="image-our-clients">
         <img src="./images/kjuj.svg">
@@ -377,6 +397,7 @@
           </div>
         </div>
     </section>
+
     <div class="contacts-background">
       <section class="question-form">
         <div class="image-back">
@@ -386,7 +407,7 @@
           <div class="black_black">
             <div class="black_questions">
               <div class="black_questions_info">
-                <h5 class="text_questions">Have any questions?</h5>
+                <div class="text_questions">Have any questions?</div>
                 <div class="home">
                   <div class="request" for="#">Name<br>
                     <input class="input_questions" type="text" placeholder="What is your name:" required>
@@ -399,8 +420,12 @@
                   <input class="input_questions_text" type="text" placeholder="I want to know:" required>
                 </div>
                 <div class="button_chekbox">
-                  <div class="request chekbox_request"><input type="checkbox" class="checkbox_symbal">
-                    I agree to the processing of personal data
+                  <div class="request chekbox_request">
+                    <label class="checkbox">
+                      <input type="checkbox" class="checkbox_symbal">
+                      <div class="checkbox-fake"></div>
+                      I agree to the processing of personal data
+                    </label>
                   </div>
                   <button class="button button_questions">Submit</button>
                 </div>
@@ -410,8 +435,11 @@
             </div>
           </div>
       </section>
-      <section>
+      <section class="geolocation">
         <div class="container">
+          <div class="geolocation-image">
+            <img src="./images/geolocation-image2.png">
+          </div>
           <div class="city-street">Rostov-on-Don, Nansen St., 239 Shopping Center<br>
             Decorum Tel +7 (928) 768 32 29</div>
           <div class="logo-socseti"><img class="logo-contacts" src="./images/logo-internet.svg"></div>
@@ -421,37 +449,37 @@
         </div>
       </section>
     </div>
-    <footer class="header">
-      <div class="container header-content">
-        <div class="logo">IC "Repair Design Project"</div>
-        <nav>
-          <ul class="header-navigation">
-            <li class="header-navigation_item"><a href="#HOME">HOME</a></li>
-            <li class="header-navigation_item">
-              <a href="#PROJECTS">PROJECTS</a>
-            </li>
-            <li class="header-navigation_item">
-              <a href="#MEASUREMENT">MEASUREMENT</a>
-            </li>
-            <li class="header-navigation_item"><a href="#TEAM">TEAM</a></li>
-            <li class="header-navigation_item">
-              <a href="#REVIEWS">REVIEWS</a>
-            </li>
-            <li class="header-navigation_item">
-              <a href="#CONTACTS">CONTACTS</a>
-            </li>
-          </ul>
-        </nav>
-        <a href="tel:+7(928)768-32-39" class="link">+7(928)768-32-39</a>
-        <button class="button button-small button1">Request a call</button>
-      </div>
-
-
-    </footer>
-
-
-
   </main>
+  <footer class="header footer">
+    <div class="container header-content">
+      <div class="logo">IC "Repair Design Project"</div>
+      <nav>
+        <ul class="header-navigation">
+          <li class="header-navigation_item"><a href="#HOME">HOME</a></li>
+          <li class="header-navigation_item">
+            <a href="#PROJECTS">PROJECTS</a>
+          </li>
+          <li class="header-navigation_item">
+            <a href="#MEASUREMENT">MEASUREMENT</a>
+          </li>
+          <li class="header-navigation_item"><a href="#TEAM">TEAM</a></li>
+          <li class="header-navigation_item">
+            <a href="#REVIEWS">REVIEWS</a>
+          </li>
+          <li class="header-navigation_item">
+            <a href="#CONTACTS">CONTACTS</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="header-link">
+        <a href="tel:+7(928)768-32-39" class="link">+7(928)768-32-39</a>
+      </div>
+      <button class="button button-small button1">Request a call</button>
+    </div>
+
+
+  </footer>
+
 </body>
 
 </html>
