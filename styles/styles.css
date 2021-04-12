@@ -1104,4 +1104,7 @@ body {
     background: transparent;
     border: 1px solid #ffffff;
   }
-}
+  .online-control-title{
+    z-index: 1;
+    position: relative;
+  }
